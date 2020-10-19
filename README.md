@@ -3,7 +3,8 @@ Project contains applications, algorithms and sollutions to problems described b
 
 
 # Projects
-1. List 1
+## 1. List 1
+
 **D1** - Determine affiliation of point P(x, y), knowing it's coordinates, ro colored zones of plane or to the background.
 
 **D2** - Print three given numbers A, B and C  in ascending order.
@@ -18,7 +19,8 @@ b) acute, right, obtuse?
 
 **D6** - Today is DD/MM/RR. What was the date yesterday? which one is going to be tomorrow?
 
-2. List 2
+## 2. List 2
+
 **I1** - Having series of 'n' real numbers, count:
 	a) sum of all the numbers,
 	b) arithmetic mean of all positive numbers,
