@@ -13,6 +13,14 @@ public class Main {
         System.out.println(I5(341231));
         System.out.println(I6(125, 25));
         System.out.println(I7(125, 25));
+
+        int[] a = new int[50];
+        a[10] += 1;
+        {
+            int[] k = new int[5];
+            System.out.println(k[1]);
+        }
+        System.out.println(a[10] + a[5] + 1);
     }
 
     public static <T extends Number> List<Double> I1(List<T> a_series) {
@@ -140,7 +148,51 @@ public class Main {
         return mem_fact.get(a_fact);
     }
     public static ArrayList<Double> I10(double a_x, int a_bound){
+        double e = 1, sin = a_x, cos = 1;
+        double e_num = 1, sin_num = a_x, cos_num = 1;
+        double square = Math.pow(a_x, 2);
+        ArrayList<Double> res = new ArrayList<Double>();
+        for(int i = 1; i < a_bound + 1; i++){
+            e_num *= a_x / i;
+            e += e_num;
+            sin_num = -(sin_num * square / (2*i * (2*i + 1)));
+            sin += sin_num;
+            cos_num = -(cos_num * square / ((2*i -1) * 2*i));
+            cos += cos_num;
+        }
+        res.addAll(Arrays.asList(e, sin, cos));
+        return res;
+    }
+    public static ArrayList<Double> I10(double a_x, double a_precision){
+        double e = 1, sin = a_x, cos = 1;
+        double e_prec = 1, sin_prec = a_x, cos_prec = 1;
+        boolean flag = true;
+        double square = Math.pow(a_x, 2);
+        ArrayList<Double> res = new ArrayList<Double>();
+        for(int i = 1; flag; i++){
+            flag = false;
+            if(Math.abs(e_prec) > a_precision){
+                e_prec *= a_x / i;
+                e += e_prec;
+                flag = true;
+            }
+            if(Math.abs(sin_prec) > a_precision){
+                sin_prec = -(sin_prec * square / (2*i * (2*i + 1)));
+                sin += sin_prec;
+                flag = true;
+            }
+            if(Math.abs(cos_prec) > a_precision){
+                cos_prec = -(cos_prec * square / ((2*i -1) * 2*i));
+                cos += cos_prec;
+                flag = true;
+            }
+        }
+        res.addAll(Arrays.asList(e, sin, cos));
+        return res;
+    }
+    public static ArrayList<Double> I10_2(double a_x, int a_bound){
         double e = 0, sin = 0, cos = 0;
+//        double e_num, sin_num, cos_num;
         ArrayList<Double> res = new ArrayList<Double>();
         for(int i = 0; i < a_bound + 1; i++){
             e += Math.pow(a_x, i) / factorial(i);
@@ -150,34 +202,5 @@ public class Main {
         res.addAll(Arrays.asList(e, sin, cos));
         return res;
     }
-    public static ArrayList<Double> I10(double a_x, double a_precision){
-        double e = 0, sin = 0, cos = 0;
-        double e_prec = 100, sin_prec = 100, cos_prec = 100;
-        double e_prev = 0, sin_prev = 0, cos_prev = 0;
-        boolean flag = true;
-        ArrayList<Double> res = new ArrayList<Double>();
-        for(int i = 0; flag; i++){
-            flag = false;
-            if(e_prec > a_precision){
-                e += Math.pow(a_x, i) / factorial(i);
-                e_prec = e - e_prev;
-                e_prev = e;
-                flag = true;
-            }
-            if(sin_prec > a_precision){
-                sin += Math.pow(-1, i) * Math.pow(a_x, 2*i + 1) / factorial(2*i + 1);
-                sin_prec = sin - sin_prev;
-                sin_prev = sin;
-                flag = true;
-            }
-            if(cos_prec > a_precision){
-                cos += Math.pow(-1, i) * Math.pow(a_x, 2*i) / factorial(2*i);
-                cos_prec = cos - cos_prev;
-                cos_prev = cos;
-                flag = true;
-            }
-        }
-        res.addAll(Arrays.asList(e, sin, cos));
-        return res;
-    }
+
 }

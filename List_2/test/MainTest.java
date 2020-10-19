@@ -34,8 +34,19 @@ public class MainTest {
         end = System.nanoTime() - start;
         System.out.println("Time meassured for I9(): " + end);
 
+        start = System.nanoTime();
+        Main.I10(0.3, 10);
+        end = System.nanoTime() - start;
+        System.out.println("Main.I10() time: " + end);
+
+        start = System.nanoTime();
+        Main.I10_2(0.3, 10);
+        end = System.nanoTime() - start;
+        System.out.println("Main.I10_2() time: " + end);
+
+
         Assert.assertEquals(Arrays.asList(1.3498588075759574, 0.29552020666133955,0.955336489125606), Main.I10(0.3, 10));
-        Assert.assertEquals(Arrays.asList(1.3498587625, 0.2955, 0.955), Main.I10(0.3, 1e-5));
+        Assert.assertEquals(Arrays.asList(1.3498375, 0.29552025, 0.9553375), Main.I10(0.3, 1e-3));
 
         System.out.println("Testing finished successfully");
 //        start = System.nanoTime();
