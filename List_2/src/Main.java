@@ -7,20 +7,16 @@ public class Main {
     static ArrayList<Long>  mem_fact = new ArrayList<Long>(Arrays.asList(1L, 1L, 2L));
     public static void main(String[] a_args) {
         System.out.println(I1(Arrays.asList(1, 2, 3, 4, 5, 12)).toString());
-        System.out.println(I2(12903));
-        System.out.println(I3(24310));
-        System.out.println(I4(24310));
-        System.out.println(I5(341231));
-        System.out.println(I6(125, 25));
-        System.out.println(I7(125, 25));
-
-        int[] a = new int[50];
-        a[10] += 1;
-        {
-            int[] k = new int[5];
-            System.out.println(k[1]);
-        }
-        System.out.println(a[10] + a[5] + 1);
+        System.out.println("Sum of digits of the number 12903 is: " + I2(12903));
+        System.out.println("The number 24310 has " + I3(24310) + " significant figures");
+        System.out.println("The biggest digit in a number 24310 is " + I4(24310));
+        System.out.println("Is number 341231 prime? answer = " + I5(341231));
+        System.out.println("Trivial algorithm: GCD of 31 104 and 129 024 is " + I6(31104, 129024));
+        System.out.println("Euclidean algorithm %: GCD of 31 104 and 129 024 is " + I7(31104, 129024));
+        System.out.println("Euclidean algorithm without %: GCD of 31 104 and 129 024 is " + I8(31104, 129024));
+        System.out.println("3 to the power of 19 is " +I9(3, 19));
+        System.out.println("Counting series' for x = 0.25 and k = 10: " + I10(0.25, 10));
+        System.out.println("Counting series' for x = 0.25 and E = 1e-5: " + I10(0.25, 1e-5));
     }
 
     public static <T extends Number> List<Double> I1(List<T> a_series) {
