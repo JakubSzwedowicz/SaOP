@@ -43,3 +43,35 @@ b) acute, right, obtuse?
 **I9** - Count the 'X' to the power of 'K' ('K' - natural number). Do your best to minimize muliplications.
 
 **I10** - Using Maclaurin series (special case of [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)) count approximate values of e^x, sin(x) and cos(x) with a given precision.
+
+## List 3
+
+**J1** - Given two dates 'date1' and 'date2' in a format dd/mm/yyyy, make use of correct utilities:
+	a) Input and save date If it's in a good format.
+	b) Is 'date1' before 'date2'?
+	c) Is given year a leaping year?
+	d) How many days does the month of a date has?
+	e) Find the date 'K' days after the given date.
+	f) Find the date 'K' days before the given date.
+	g) Find the name of the day of the given date.
+	h) Calculate the difference in days between two dates.
+
+**J2** - There is a single argument function (unary function) continuous on range [a, b], that can be computed with method f(x):
+	Create iterative algorithms for computing:
+	a) Min and max values of a function based on the given range.
+	b) Value of function derivative for 'x0' with a given precision (with rigorous definition).
+	c) Rounded values of roots of equation f(x) = 0 using bisection method.
+	d) Extremums of function in the given range (if there is any), 
+		tip: Check the sign of first derivative of f(x).
+	e) Fleing points of function f(x) on the given range (assuming there are ones),
+		tip: Check the sign of the second derivative of f(x).
+
+# Basic and external libraries
+
+- openJDK-15,
+- Maven: JUnit 4.0 (for List 1 and 2),
+- Maven: XChart 3.6.5 (for List 3 - J2),
+
+# Author
+
+- [Jakub Szwedowicz](https://github.com/JakubSzwedowicz)
