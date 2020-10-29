@@ -47,7 +47,8 @@ b) acute, right, obtuse?
 ## List 3
 
 **J1** - Given two dates 'date1' and 'date2' in a format dd/mm/yyyy, make use of correct utilities:
-	a) Input and save date If it's in a good format.
+
+	a) Input and save the date if it's in good format.
 	b) Is 'date1' before 'date2'?
 	c) Is given year a leaping year?
 	d) How many days does the month of a date has?
@@ -57,6 +58,7 @@ b) acute, right, obtuse?
 	h) Calculate the difference in days between two dates.
 
 **J2** - There is a single argument function (unary function) continuous on range [a, b], that can be computed with method f(x):
+
 	Create iterative algorithms for computing:
 	a) Min and max values of a function based on the given range.
 	b) Value of function derivative for 'x0' with a given precision (with rigorous definition).
