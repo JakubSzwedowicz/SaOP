@@ -99,6 +99,55 @@ Moreover:
 	- sort set of points in ascending order based on the distance of each points to the beggining of the coordinate system,
 	- sort pairs of points in ascending order based on the distances between pairs.
 
+## List 5
+
+**O2** - Define class Array. Objects of this class should remember 'n' numbers of unknown type. Make it so that other elements can be added every time without to worry about the size. Take ArrayList for the inspiration. Write methods that:
+	- sum all the elements of array,
+	- max value within the array,
+	- max element (as index of max element of the array),
+	- check if given as parameter value occurs on some of the 'k' (k <= n) first elements of the array,
+	- is array diverse (compare direct sollution and the other involving the method from above),
+	- remove all the occurances of the parameter 'x'. The algorithm doesn't have to be in-place,
+	- remove all the duplicates of elements within the array,
+Propose other methods of the class Array.
+
+**O3** - Define class SortedArray (not decreasing order) keeping the assumptions from O2. Develop methods such that:
+	- add en element given as a parameter,
+	- remove the element given by the index,
+	- remove the element with a given value (if there are more of them, remove the last one),
+	- remove all the occurances of the given value 'x',
+	- is given as a parameter value present on some of the first 'k' values of the array (k <= n),
+	- remove all the duplicates,
+Propose other methods of the class SortedArray.
+
+**O4** - Define class Matrix. Objects of this class should be able to remember 2D array (up to 20 rows and 30 columns) of any number. Define methods such that returns:
+	- max value of matrix,
+	- max element index,
+	- row with the max sum of elements,
+	- is given as a parameter value occurs in the matrix,
+	- transposition of matrix,
+Propose other methods of the class.
+
+**O5** - Define a class MatrixArray in which matrix is treated as a 1D array from the O2 task. Objects of this class should remember 2D array of any numbers. After that, desgin methods so they return:
+	- sum of all the elements,
+	- max value in the matrix,
+	- max element index,
+	- row with the greatest sum of elements,
+	- is given value as a parameter occurs in the matrix,
+	- is matrix diverse,
+Propose other methods. (i.e. add column, or row to already created matrix)
+
+**O6** - Create a class Hotel. Each hotel has a fixed number of Rooms placed on individual Floors. Number of floors and number od rooms on each floor are set when creating the object. Room is identified by an object of a class RoomInfo (with fields Floor and Room). Specified room is occupied if there is na object of a class Person assigned to it. (define a class Person). One person can inhabit many rooms.
+Define methods:
+	- Is there any free room,
+	- how many free rooms are there,
+	- rent whatever unoccupied room to the given as a parameter person (object of type Person),
+	- is it possible to rent 'k' adjacent rooms (result should be the first number of the room or null if it's not possible),
+	- does the person with the given surname rents any room,
+	- which rooms does the person with a given surname rents (the answer should be the number of rooms or null),
+	- free all the rooms occupied by the person with a given surname,
+Propose other methods of a class Hotel.
+
 # Basic and external libraries
 
 - openJDK-15,

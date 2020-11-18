@@ -20,7 +20,6 @@ public class Main {
         System.out.println("I9() = 3 to the power of 19 is " +I9(3, 19));
         System.out.println("I10() = Counting series' for x = 0.25 and k = 10: " + I10(0.25, 10));
         System.out.println("I10() = Counting series' for x = 0.25 and E = 1e-5: " + I10(0.25, 1e-5));
-
     }
 
     public static <T extends Number> List<Double> I1(List<T> a_series) {
