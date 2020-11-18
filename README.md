@@ -71,37 +71,45 @@ b) acute, right, obtuse?
 ## List 4
 
 using as a source of data:
+
 	a) pseudorandom number generator,
 	b) console,
 write the following programs:
 
 **T1**
+
 	a) Create series as array,
 	b) Create set as array,
 of random whole numbers in range <1, K> (number of elements: N < K) and then:
+
 	- print array in the order of adding the elements,
 	- print the array in the opposite order to order of adding elements,
 	- split array into two segregated subsets of even and odd numbers.
 Warning: the elements in set cannot repeat.
 
 **T2** - Create two matrices of real numbers with a given size M x N (with M as an input) and then determine:
+
 	a) sum of matrices,
 	b) matrix multiplication,
 	c) transpose matrices for each given matrix.
 
 **T3** - For a given set 'P' that includes 'n' points on the plane in the XY coordinate system, designate:
+
 	- the furthest point from the beggining of the coordinate system (0, 0),
 	- coordinates of the vertices of the square with the smallest possible area and sides parallel to the axis that includes all the points of set 'P',
 	- tabel of the distances between all the possible pairs of points,
 	- the most distance pair of points,
 	- three points that create a triangle with the biggest area,
+	
 Moreover:
+
 	- sort set of points in ascending order based on the distance of each points to the beggining of the coordinate system,
 	- sort pairs of points in ascending order based on the distances between pairs.
 
 ## List 5
 
 **O2** - Define class Array. Objects of this class should remember 'n' numbers of unknown type. Make it so that other elements can be added every time without to worry about the size. Take ArrayList for the inspiration. Write methods that:
+
 	- sum all the elements of array,
 	- max value within the array,
 	- max element (as index of max element of the array),
@@ -112,6 +120,7 @@ Moreover:
 Propose other methods of the class Array.
 
 **O3** - Define class SortedArray (not decreasing order) keeping the assumptions from O2. Develop methods such that:
+
 	- add en element given as a parameter,
 	- remove the element given by the index,
 	- remove the element with a given value (if there are more of them, remove the last one),
@@ -121,6 +130,7 @@ Propose other methods of the class Array.
 Propose other methods of the class SortedArray.
 
 **O4** - Define class Matrix. Objects of this class should be able to remember 2D array (up to 20 rows and 30 columns) of any number. Define methods such that returns:
+
 	- max value of matrix,
 	- max element index,
 	- row with the max sum of elements,
@@ -129,6 +139,7 @@ Propose other methods of the class SortedArray.
 Propose other methods of the class.
 
 **O5** - Define a class MatrixArray in which matrix is treated as a 1D array from the O2 task. Objects of this class should remember 2D array of any numbers. After that, desgin methods so they return:
+
 	- sum of all the elements,
 	- max value in the matrix,
 	- max element index,
@@ -139,6 +150,7 @@ Propose other methods. (i.e. add column, or row to already created matrix)
 
 **O6** - Create a class Hotel. Each hotel has a fixed number of Rooms placed on individual Floors. Number of floors and number od rooms on each floor are set when creating the object. Room is identified by an object of a class RoomInfo (with fields Floor and Room). Specified room is occupied if there is na object of a class Person assigned to it. (define a class Person). One person can inhabit many rooms.
 Define methods:
+
 	- Is there any free room,
 	- how many free rooms are there,
 	- rent whatever unoccupied room to the given as a parameter person (object of type Person),
