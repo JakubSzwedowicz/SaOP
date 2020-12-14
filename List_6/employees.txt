@@ -1,0 +1,53 @@
+# Legend:
+# 
+# Employee
+# 	Surname - "Somesurname"
+#	contract - 1/2 
+#	i.e. > "Skywalker" 1/2
+#
+# Worker - W
+#	working time - 120
+#	hourly rate - 20
+#	i.e. > W "Skywalker" 1/2 120 20
+# 
+# NotWorker - NW
+# 	bonus percentage - 20
+#	i.e. > NW "Skywalker" 1/2 20
+[W] Vader 1/2 160 20
+[W] Kenobi 1 200 20
+[W] Palpatine 1 200 20
+[W] Voldemort 1/8 40 10
+[W] Potter 1/2 80 20
+[NW] Granger 1 80
+[NW] SnoopDog 1/16 0
+[NW] Gates 1/16 0
+[W] Student 3/5 240 12
+[W] Kirk 1 160 20
+[W] Carter 1 160 40
+[W] Teal'c 1 160 20
+[W] Hammond 1 200 30
+[W] O'Neill 1/2 80 20
+[W] Sheppard 1 160 20
+[W] Dex 1/2 120 20
+[W] Burnham 1 160 40
+[NW] Saru 1 100
+[NW] Stamets 1 100
+[NW] Tilly 1 80
+[NW] Georgiou 1/2 50
+[NW] Tyler 1/4 40
+[NW] Lorca 7/8 15
+[NW] Pike 1 100
+[NW] Reno 1 200
+[W] Targaryen 1/16 20 10
+[W] Lannister 1/8 20 1000
+[W] Snow 1 200 5
+[W] Clegane 1 200 6
+[W] Stroustrup 1 200 30
+[W] Torvalds 1 200 30
+[W] Ritchie 1 160 30
+[W] Rossum 1 200 30
+[NW] Gosling 1/16 0
+[NW] Backus 1/4 50
+[NW] Matsumoto 1 60
+[NW] Stallman 1 100
+[NW] Lukasiewicz 1/2 50

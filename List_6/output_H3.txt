@@ -1,0 +1,108 @@
+/home/jakub/.jdks/openjdk-15/bin/java -javaagent:/snap/intellij-idea-ultimate/253/lib/idea_rt.jar=38017:/snap/intellij-idea-ultimate/253/bin -Dfile.encoding=UTF-8 -classpath /home/jakub/Dev/Java/PSiO/List_6/out/production/List_6 Main
+Running all the tests for the class Invoice!
+
+
+Creating first invoice for first buyer:
+Invoice number 1, 	Issue date: 2020-12-10
+
+Supply date: 2020-11-10, Payment day: 2020-12-30
+Buyer: 
+ Natural person:
+	Name: Trump,
+	Address: Ulica 12/23
+
+
+Wares of transaction: 
+0 Ware: Tables | amount = 2, price = 100.99, total price = 201.98
+1 Ware: Chairs | amount = 8, price = 37.99, total price = 303.92
+2 Ware: Plates | amount = 8, price = 20.99, total price = 167.92
+3 Ware: Vase | amount = 4, price = 99.99, total price = 399.96
+4 Ware: Forks | amount = 16, price = 12.99, total price = 207.84
+5 Ware: Spoons | amount = 16, price = 10.99, total price = 175.84
+
+Total amount to pay: 1457.46
+
+
+
+Creating the second invoice for the second buyer:
+Invoice number 2, 	Issue date: 2020-11-10
+
+Supply date: 2020-12-10, Payment day: 2020-12-30
+Buyer: 
+ Natural person:
+	Name: Putin,
+	Address: Ulica 11/23
+
+
+Wares of transaction: 
+0 Ware: CPU | amount = 120, price = 1000, total price = 120000
+1 Ware: GPU | amount = 900, price = 3500, total price = 3150000
+2 Ware: SSD | amount = 12000, price = 500.99, total price = 6011880.00
+
+Total amount to pay: 9281880.00
+
+
+
+Adding the third invoice to the first buyer:
+Invoice number 3, 	Issue date: 2010-12-10
+
+Supply date: 2011-01-05, Payment day: 2020-12-30
+Buyer: 
+ Natural person:
+	Name: Trump,
+	Address: Ulica 12/23
+
+
+Wares of transaction: 
+0 Ware: TV | amount = 10, price = 5000.99, total price = 50009.90
+1 Ware: Car | amount = 6, price = 12000.99, total price = 72005.94
+2 Ware: House | amount = 3, price = 7800000, total price = 23400000
+
+Total amount to pay: 23522015.84
+
+
+
+Printing all the invoices of the first buyer:
+Invoices of a buyer: Natural person:
+	Name: Trump,
+	Address: Ulica 12/23
+
+Invoice 0:
+Invoice number 1, 	Issue date: 2020-12-10
+
+Supply date: 2020-11-10, Payment day: 2020-12-30
+Buyer: 
+ Natural person:
+	Name: Trump,
+	Address: Ulica 12/23
+
+
+Wares of transaction: 
+0 Ware: Tables | amount = 2, price = 100.99, total price = 201.98
+1 Ware: Chairs | amount = 8, price = 37.99, total price = 303.92
+2 Ware: Plates | amount = 8, price = 20.99, total price = 167.92
+3 Ware: Vase | amount = 4, price = 99.99, total price = 399.96
+4 Ware: Forks | amount = 16, price = 12.99, total price = 207.84
+5 Ware: Spoons | amount = 16, price = 10.99, total price = 175.84
+
+Total amount to pay: 1457.46
+
+Invoice 1:
+Invoice number 3, 	Issue date: 2010-12-10
+
+Supply date: 2011-01-05, Payment day: 2020-12-30
+Buyer: 
+ Natural person:
+	Name: Trump,
+	Address: Ulica 12/23
+
+
+Wares of transaction: 
+0 Ware: TV | amount = 10, price = 5000.99, total price = 50009.90
+1 Ware: Car | amount = 6, price = 12000.99, total price = 72005.94
+2 Ware: House | amount = 3, price = 7800000, total price = 23400000
+
+Total amount to pay: 23522015.84
+
+
+Process finished with exit code 0

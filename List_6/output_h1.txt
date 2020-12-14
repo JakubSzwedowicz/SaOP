@@ -1,0 +1,13 @@
+/home/jakub/.jdks/openjdk-15/bin/java -javaagent:/snap/intellij-idea-ultimate/253/lib/idea_rt.jar=32955:/snap/intellij-idea-ultimate/253/bin -Dfile.encoding=UTF-8 -classpath /home/jakub/Dev/Java/PSiO/List_6/out/production/List_6 Main
+Object when serialized :
+cost = 96.69911184307752 and material = 54.132741228718345
+Figures: 
+[Radius = 2.0 [mm], Side = 5.0, Sides = 1.0x4.0 [mm]]
+
+Object deserialized :
+cost = 96.69911184307752 and material = 54.132741228718345
+Figures: 
+[Radius = 2.0 [mm], Side = 5.0, Sides = 1.0x4.0 [mm]]
+
+Process finished with exit code 0
+

@@ -160,6 +160,94 @@ Define methods:
 	- free all the rooms occupied by the person with a given surname,
 Propose other methods of a class Hotel.
 
+## List 6
+
+**H1** - Some company produces different shapes ("Figure") in such formats:
+
+	a) circle (Figure of type "Circle", with radius r),
+	b) square (Figure of typr "Square", with a side equall d),
+	c) rectangle (Figure of type "Rectangle", with two sides a, b),
+cutting them with a laser in a sheet of metal. The price of each shape is calculated based on the perimeter of a figure and on the area of the figure.
+
+Orders are placed for the single shape or as a set of shapes (it is "Compunded Figure" then from other particular Figures).
+Define proper classes so it would be possible to accept orders and designate cost and material for each order.
+
+**H2** - Define a set of classes allowing to manage a simple payroll in the Company. Taking under the consideration below simplifications:
+
+	- Company can employ at best 100 Employees,
+	- Each and every Employee is clearly distinguishable by surname (there cannot be two Employees with identical surname),
+	- Every Employee is employed on particular part of the contract (i.e. 1/1, 1/2, 1/4, ...),
+	- There are two groups of Employees: NotWorker and Worker,
+	- NotWorker's salary is caluclated as sum of:
+		a) Basic income given as the one for the whole contract multiplied by a type of contract,
+		b) Bonus which comes from individual % bonus applied to basic income,
+	- Worker's salary is calculated as sum of:
+		a) Number of working hours,
+		b) Individual hour rate,
+		c) For overtime, which is the amount of hours worked above the LIMIT (given for the whole contract and shared among all the Workers), there should be 50% bonus.
+
+Define methods for:
+
+	- Calculating the payment of each Employee,
+	- finding the Employee based on its surname (return the reference to the object,
+	- Establishing if the Emplyee is a Worker,
+	- Hiring the new Employee as Worker/NotWorker; pieces of information are: surname, salary (that takes under the account the rules of type of the Employee) and part of the contract the person is hired,
+	- Firing Employee with given surname,
+	- Finding out how many Workers/NotWorkers there are,
+	- Calculating the whole payment for all the Workers/NotWorkers,
+	- Print (just display) the list of payments in alhpabetical order.
+
+**H3** - Propose the class Invoice. Each Invoice documents the event of selling the set of Merchandise to the given client (Buyer). It does contain unique number, issued date, payment date (invoice date), ship date, payment type and the set of goods on the invoice. Invoice must have structure of a multipositional document and should also allow to:
+
+	- add the new invoice (and add new Merch to the already existing Invoice),
+	- print the invoice,
+	- print the list of invoices,
+	- print the invoices of a given Buyer.
+Propose the set of methods implementing these assumptions. Take care of real life biznes rules (analize the structure of a document, validate dates etc.)
+
+
+## List 7
+
+**Int.1** - Starting with the interface:
+'''java
+interface Function {
+	public double f(double x); // returns the value of the continues function for a given x
+	public String formula(); // returns a string, which represents the text version of a function
+}
+Define the class Table returning, with methods public String toString(), the table of function values. The class implements Function for 'n' following arguments from the xBegin to the xEnd with a step xStep (xBegin, XEnd, n - given; xStep = (xBegin - xEnd)/n).
+The tabel should contain:
+	
+	a) The header with the formula written as for instance: f(x) = sin(x),
+	b) The header for tho columns as:	x		f(x),
+	c) The next rows with values:	 argument	value,
+		for every next argument: xBegin, xBegin + xStep, ... , xEnd.
+	
+**Int.2** - Define the class SetOfMethods which implements methods for Tabel from Int.1 such that finds:
+
+	- value of derivative in x0 with given precision,
+	- rounded values of roots of the equation f(x) = 0 using the bisection method,
+	- extremums of a function on given range (use derivative),
+	- inflection points of a function on range (use derivative),
+	- definite integral f(x) dx on range <a, b> (using the geometric interpretation of integral)
+
+**Int.3** - Define the class ParkingPlace implementing given methods:
+
+	- add the vehicle to the list of accepted for entry vehicles (by giving its license plate), assuming its not there yet,
+	- register the entry on the parking site of a car with a given license plate (if it's not already registered),
+	- register the leave (unregister the presence) of a vehicle,
+
+Use the exception mechanism.
+Make assumption that every vehicle implements given interface:
+	'''java
+	interface Identification {
+		public String licensePlate(); // returns the license plate of a vehicle
+	}
+Create two classes of Vehicle: Car and Motorcyckle implementing interface Identification.
+
+Then build a supervisory class to manipulate 3 parking places.
+(\*) propose the app which would help the potential client choose the best parking site based on their state of fullness.
+
+
 # Basic and external libraries
 
 - openJDK-15,

@@ -1,0 +1,1045 @@
+/home/jakub/.jdks/openjdk-15/bin/java -javaagent:/snap/intellij-idea-ultimate/253/lib/idea_rt.jar=42785:/snap/intellij-idea-ultimate/253/bin -Dfile.encoding=UTF-8 -classpath /home/jakub/Dev/Java/PSiO/List_6/out/production/List_6 Main
+Running all the tests for the class EmployedStaff!
+
+
+Loading data from the file employees.txt
+Employed staff: 38
+Employee 0: Worker: 
+Name: Vader
+Contract: 0.5
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 1: Worker: 
+Name: Kenobi
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 2: Worker: 
+Name: Palpatine
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 3: Worker: 
+Name: Voldemort
+Contract: 0.125
+Payment: 400.0
+	working time: 40.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 4: Worker: 
+Name: Potter
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 5: Not worker: 
+Name: Granger
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 6: Not worker: 
+Name: SnoopDog
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 7: Not worker: 
+Name: Gates
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 8: Worker: 
+Name: Student
+Contract: 0.6
+Payment: 4320.0
+	working time: 240.0
+	limit: 160.0
+	hourly rate: 12.0
+Employee 9: Worker: 
+Name: Kirk
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 10: Worker: 
+Name: Carter
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 11: Worker: 
+Name: Teal'c
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 12: Worker: 
+Name: Hammond
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 13: Worker: 
+Name: O'Neill
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 14: Worker: 
+Name: Sheppard
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 15: Worker: 
+Name: Dex
+Contract: 0.5
+Payment: 2400.0
+	working time: 120.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 16: Worker: 
+Name: Burnham
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 17: Not worker: 
+Name: Saru
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 18: Not worker: 
+Name: Stamets
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 19: Not worker: 
+Name: Tilly
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 20: Not worker: 
+Name: Georgiou
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 21: Not worker: 
+Name: Tyler
+Contract: 0.25
+Payment: 40250.0
+	basic income: 1000.0
+	bonus percentage: 40.0
+Employee 22: Not worker: 
+Name: Lorca
+Contract: 0.875
+Payment: 15875.0
+	basic income: 1000.0
+	bonus percentage: 15.0
+Employee 23: Not worker: 
+Name: Pike
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 24: Not worker: 
+Name: Reno
+Contract: 1.0
+Payment: 201000.0
+	basic income: 1000.0
+	bonus percentage: 200.0
+Employee 25: Worker: 
+Name: Targaryen
+Contract: 0.0625
+Payment: 200.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 26: Worker: 
+Name: Lannister
+Contract: 0.125
+Payment: 20000.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 1000.0
+Employee 27: Worker: 
+Name: Snow
+Contract: 1.0
+Payment: 1300.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 5.0
+Employee 28: Worker: 
+Name: Clegane
+Contract: 1.0
+Payment: 1560.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 6.0
+Employee 29: Worker: 
+Name: Stroustrup
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 30: Worker: 
+Name: Torvalds
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 31: Worker: 
+Name: Ritchie
+Contract: 1.0
+Payment: 4800.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 32: Worker: 
+Name: Rossum
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 33: Not worker: 
+Name: Gosling
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 34: Not worker: 
+Name: Backus
+Contract: 0.25
+Payment: 50250.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 35: Not worker: 
+Name: Matsumoto
+Contract: 1.0
+Payment: 61000.0
+	basic income: 1000.0
+	bonus percentage: 60.0
+Employee 36: Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 37: Not worker: 
+Name: Lukasiewicz
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+
+
+Testing finding an employee by surname = Stallman
+Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+
+Testing if two employees are not workers
+Is 
+Worker: 
+Name: Rossum
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+ not a worker? = false
+Is 
+Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+ not a worker? = true
+
+Testing adding worker and not worker
+Employed staff: 40
+Employee 0: Worker: 
+Name: Vader
+Contract: 0.5
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 1: Worker: 
+Name: Kenobi
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 2: Worker: 
+Name: Palpatine
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 3: Worker: 
+Name: Voldemort
+Contract: 0.125
+Payment: 400.0
+	working time: 40.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 4: Worker: 
+Name: Potter
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 5: Not worker: 
+Name: Granger
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 6: Not worker: 
+Name: SnoopDog
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 7: Not worker: 
+Name: Gates
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 8: Worker: 
+Name: Student
+Contract: 0.6
+Payment: 4320.0
+	working time: 240.0
+	limit: 160.0
+	hourly rate: 12.0
+Employee 9: Worker: 
+Name: Kirk
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 10: Worker: 
+Name: Carter
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 11: Worker: 
+Name: Teal'c
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 12: Worker: 
+Name: Hammond
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 13: Worker: 
+Name: O'Neill
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 14: Worker: 
+Name: Sheppard
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 15: Worker: 
+Name: Dex
+Contract: 0.5
+Payment: 2400.0
+	working time: 120.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 16: Worker: 
+Name: Burnham
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 17: Not worker: 
+Name: Saru
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 18: Not worker: 
+Name: Stamets
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 19: Not worker: 
+Name: Tilly
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 20: Not worker: 
+Name: Georgiou
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 21: Not worker: 
+Name: Tyler
+Contract: 0.25
+Payment: 40250.0
+	basic income: 1000.0
+	bonus percentage: 40.0
+Employee 22: Not worker: 
+Name: Lorca
+Contract: 0.875
+Payment: 15875.0
+	basic income: 1000.0
+	bonus percentage: 15.0
+Employee 23: Not worker: 
+Name: Pike
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 24: Not worker: 
+Name: Reno
+Contract: 1.0
+Payment: 201000.0
+	basic income: 1000.0
+	bonus percentage: 200.0
+Employee 25: Worker: 
+Name: Targaryen
+Contract: 0.0625
+Payment: 200.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 26: Worker: 
+Name: Lannister
+Contract: 0.125
+Payment: 20000.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 1000.0
+Employee 27: Worker: 
+Name: Snow
+Contract: 1.0
+Payment: 1300.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 5.0
+Employee 28: Worker: 
+Name: Clegane
+Contract: 1.0
+Payment: 1560.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 6.0
+Employee 29: Worker: 
+Name: Stroustrup
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 30: Worker: 
+Name: Torvalds
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 31: Worker: 
+Name: Ritchie
+Contract: 1.0
+Payment: 4800.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 32: Worker: 
+Name: Rossum
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 33: Not worker: 
+Name: Gosling
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 34: Not worker: 
+Name: Backus
+Contract: 0.25
+Payment: 50250.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 35: Not worker: 
+Name: Matsumoto
+Contract: 1.0
+Payment: 61000.0
+	basic income: 1000.0
+	bonus percentage: 60.0
+Employee 36: Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 37: Not worker: 
+Name: Lukasiewicz
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 38: Not worker: 
+Name: Sauron
+Contract: 0.5
+Payment: 100500.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 39: Worker: 
+Name: Saruman
+Contract: 1.0
+Payment: 1600.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 10.0
+
+
+Testing removing the employee with surname: Sauron
+After removing Sauron: 
+Employed staff: 39
+Employee 0: Worker: 
+Name: Vader
+Contract: 0.5
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 1: Worker: 
+Name: Kenobi
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 2: Worker: 
+Name: Palpatine
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 3: Worker: 
+Name: Voldemort
+Contract: 0.125
+Payment: 400.0
+	working time: 40.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 4: Worker: 
+Name: Potter
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 5: Not worker: 
+Name: Granger
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 6: Not worker: 
+Name: SnoopDog
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 7: Not worker: 
+Name: Gates
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 8: Worker: 
+Name: Student
+Contract: 0.6
+Payment: 4320.0
+	working time: 240.0
+	limit: 160.0
+	hourly rate: 12.0
+Employee 9: Worker: 
+Name: Kirk
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 10: Worker: 
+Name: Carter
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 11: Worker: 
+Name: Teal'c
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 12: Worker: 
+Name: Hammond
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 13: Worker: 
+Name: O'Neill
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 14: Worker: 
+Name: Sheppard
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 15: Worker: 
+Name: Dex
+Contract: 0.5
+Payment: 2400.0
+	working time: 120.0
+	limit: 160.0
+	hourly rate: 20.0
+Employee 16: Worker: 
+Name: Burnham
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0
+Employee 17: Not worker: 
+Name: Saru
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 18: Not worker: 
+Name: Stamets
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 19: Not worker: 
+Name: Tilly
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0
+Employee 20: Not worker: 
+Name: Georgiou
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 21: Not worker: 
+Name: Tyler
+Contract: 0.25
+Payment: 40250.0
+	basic income: 1000.0
+	bonus percentage: 40.0
+Employee 22: Not worker: 
+Name: Lorca
+Contract: 0.875
+Payment: 15875.0
+	basic income: 1000.0
+	bonus percentage: 15.0
+Employee 23: Not worker: 
+Name: Pike
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 24: Not worker: 
+Name: Reno
+Contract: 1.0
+Payment: 201000.0
+	basic income: 1000.0
+	bonus percentage: 200.0
+Employee 25: Worker: 
+Name: Targaryen
+Contract: 0.0625
+Payment: 200.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 10.0
+Employee 26: Worker: 
+Name: Lannister
+Contract: 0.125
+Payment: 20000.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 1000.0
+Employee 27: Worker: 
+Name: Snow
+Contract: 1.0
+Payment: 1300.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 5.0
+Employee 28: Worker: 
+Name: Clegane
+Contract: 1.0
+Payment: 1560.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 6.0
+Employee 29: Worker: 
+Name: Stroustrup
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 30: Worker: 
+Name: Torvalds
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 31: Worker: 
+Name: Ritchie
+Contract: 1.0
+Payment: 4800.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 32: Worker: 
+Name: Rossum
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0
+Employee 33: Not worker: 
+Name: Gosling
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0
+Employee 34: Not worker: 
+Name: Backus
+Contract: 0.25
+Payment: 50250.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 35: Not worker: 
+Name: Matsumoto
+Contract: 1.0
+Payment: 61000.0
+	basic income: 1000.0
+	bonus percentage: 60.0
+Employee 36: Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0
+Employee 37: Not worker: 
+Name: Lukasiewicz
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0
+Employee 38: Worker: 
+Name: Saruman
+Contract: 1.0
+Payment: 1600.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 10.0
+
+
+Testing calculating the number of Workers and Not Workers
+[16, 23]
+
+Testing the calculation of the payments for: 
+	[0] - Not Workers, 
+	[1] - Workers
+Payments equal: 
+[1035562.5, 106980.0]
+
+Testing printing sorted payments by name
+[Not worker: 
+Name: Backus
+Contract: 0.25
+Payment: 50250.0
+	basic income: 1000.0
+	bonus percentage: 50.0, Worker: 
+Name: Burnham
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0, Worker: 
+Name: Carter
+Contract: 1.0
+Payment: 6400.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 40.0, Worker: 
+Name: Clegane
+Contract: 1.0
+Payment: 1560.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 6.0, Worker: 
+Name: Dex
+Contract: 0.5
+Payment: 2400.0
+	working time: 120.0
+	limit: 160.0
+	hourly rate: 20.0, Not worker: 
+Name: Gates
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0, Not worker: 
+Name: Georgiou
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0, Not worker: 
+Name: Gosling
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0, Not worker: 
+Name: Granger
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0, Worker: 
+Name: Hammond
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0, Worker: 
+Name: Kenobi
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0, Worker: 
+Name: Kirk
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0, Worker: 
+Name: Lannister
+Contract: 0.125
+Payment: 20000.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 1000.0, Not worker: 
+Name: Lorca
+Contract: 0.875
+Payment: 15875.0
+	basic income: 1000.0
+	bonus percentage: 15.0, Not worker: 
+Name: Lukasiewicz
+Contract: 0.5
+Payment: 50500.0
+	basic income: 1000.0
+	bonus percentage: 50.0, Not worker: 
+Name: Matsumoto
+Contract: 1.0
+Payment: 61000.0
+	basic income: 1000.0
+	bonus percentage: 60.0, Worker: 
+Name: O'Neill
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0, Worker: 
+Name: Palpatine
+Contract: 1.0
+Payment: 5200.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 20.0, Not worker: 
+Name: Pike
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0, Worker: 
+Name: Potter
+Contract: 0.5
+Payment: 1600.0
+	working time: 80.0
+	limit: 160.0
+	hourly rate: 20.0, Not worker: 
+Name: Reno
+Contract: 1.0
+Payment: 201000.0
+	basic income: 1000.0
+	bonus percentage: 200.0, Worker: 
+Name: Ritchie
+Contract: 1.0
+Payment: 4800.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 30.0, Worker: 
+Name: Rossum
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0, Not worker: 
+Name: Saru
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0, Worker: 
+Name: Saruman
+Contract: 1.0
+Payment: 1600.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 10.0, Worker: 
+Name: Sheppard
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0, Not worker: 
+Name: SnoopDog
+Contract: 0.0625
+Payment: 62.5
+	basic income: 1000.0
+	bonus percentage: 0.0, Worker: 
+Name: Snow
+Contract: 1.0
+Payment: 1300.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 5.0, Not worker: 
+Name: Stallman
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0, Not worker: 
+Name: Stamets
+Contract: 1.0
+Payment: 101000.0
+	basic income: 1000.0
+	bonus percentage: 100.0, Worker: 
+Name: Stroustrup
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0, Worker: 
+Name: Student
+Contract: 0.6
+Payment: 4320.0
+	working time: 240.0
+	limit: 160.0
+	hourly rate: 12.0, Worker: 
+Name: Targaryen
+Contract: 0.0625
+Payment: 200.0
+	working time: 20.0
+	limit: 160.0
+	hourly rate: 10.0, Worker: 
+Name: Teal'c
+Contract: 1.0
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0, Not worker: 
+Name: Tilly
+Contract: 1.0
+Payment: 81000.0
+	basic income: 1000.0
+	bonus percentage: 80.0, Worker: 
+Name: Torvalds
+Contract: 1.0
+Payment: 7800.0
+	working time: 200.0
+	limit: 160.0
+	hourly rate: 30.0, Not worker: 
+Name: Tyler
+Contract: 0.25
+Payment: 40250.0
+	basic income: 1000.0
+	bonus percentage: 40.0, Worker: 
+Name: Vader
+Contract: 0.5
+Payment: 3200.0
+	working time: 160.0
+	limit: 160.0
+	hourly rate: 20.0, Worker: 
+Name: Voldemort
+Contract: 0.125
+Payment: 400.0
+	working time: 40.0
+	limit: 160.0
+	hourly rate: 10.0]
+
+Process finished with exit code 0
