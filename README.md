@@ -209,11 +209,12 @@ Propose the set of methods implementing these assumptions. Take care of real lif
 ## List 7
 
 **Int.1** - Starting with the interface:
-'''java
+```java
 interface Function {
 	public double f(double x); // returns the value of the continues function for a given x
 	public String formula(); // returns a string, which represents the text version of a function
 }
+```
 Define the class Table returning, with methods public String toString(), the table of function values. The class implements Function for 'n' following arguments from the xBegin to the xEnd with a step xStep (xBegin, XEnd, n - given; xStep = (xBegin - xEnd)/n).
 The tabel should contain:
 	
@@ -238,10 +239,11 @@ The tabel should contain:
 
 Use the exception mechanism.
 Make assumption that every vehicle implements given interface:
-	'''java
-	interface Identification {
-		public String licensePlate(); // returns the license plate of a vehicle
-	}
+```java
+interface Identification {
+	public String licensePlate(); // returns the license plate of a vehicle
+}
+```	
 Create two classes of Vehicle: Car and Motorcyckle implementing interface Identification.
 
 Then build a supervisory class to manipulate 3 parking places.
