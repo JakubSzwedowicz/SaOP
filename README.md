@@ -261,15 +261,13 @@ Then build a supervisory class to manipulate 3 parking places.
 		- next rows: rows of the matrix,
 	c) reads the matrix from the file, saves it into the memory and displays it in a formatted way.
 
-**2** - Write a program that:
-	
-	Does the same as the one from **1** but on the **Binary File**.
+**2** - Write a program that does the same as the one from **1** but on the **Binary File**.
 
-**3** Binary file stores some number of records - data from Records of the temperature at the given time and date in some location X.
+**3** - Binary file stores some number of records - data from Records of the temperature at the given time and date in some location X.
 Each record has a format based on the structure of a class Record and Time:
-	```java
-	class Record { Time time; double temperature; }
-	class Time { int year, month, day, hour, minute; }
+```java
+class Record { Time time; double temperature; }
+class Time { int year, month, day, hour, minute; }
 ```
 Write methods:
 
@@ -277,7 +275,8 @@ Write methods:
 	- adding the record to the file keeping the chronological order of records within the file,
 	- printing on the display records from the given month of a particular year,
 	- printing days of the chosen month and year in which there was a warming.
-
+	
+	
 ## List 9
 
 **9.1** - Define the generic class MySet<T> which implements operations on sets: addition, subtraction, intersection, symmetric diffference, using the objects of a collection TreeSet<T>. Each methods should take MySet<T> as a parameter and return the object of type MySet<T>. 
@@ -296,6 +295,7 @@ Ilustrate the usage of methods with test objects of class Point2D and (independe
 
 - openJDK-15,
 - Maven: JUnit 4.0 (for List 1 and 2),
+- Jupyter: Junit 5.4 (for List 9),
 - Maven: XChart 3.6.5 (for List 3 - J2),
 
 # Author
