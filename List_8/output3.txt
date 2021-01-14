@@ -1,0 +1,51 @@
+Printing file with 7 records:
+Records within the file Records.ser
+temp = 7.0, date = 2020.12.25, 22:54
+temp = 13.0, date = 2020.12.25, 22:54
+temp = 9.0, date = 2020.12.25, 22:54
+temp = 11.0, date = 2020.12.25, 22:54
+temp = 1.0, date = 2020.12.26, 0:10
+temp = 3.0, date = 2020.12.26, 0:10
+temp = 13.0, date = 2020.12.26, 0:10
+temp = 7.0, date = 2020.12.26, 0:10
+temp = 9.0, date = 2020.12.26, 0:10
+temp = 11.0, date = 2020.12.26, 0:10
+temp = 5.0, date = 2020.12.26, 0:10
+Adding the record temp = 101.0, date = 2020.1.1, 1:1
+Printing again:
+Records within the file Records.ser
+temp = 101.0, date = 2020.1.1, 1:1
+temp = 7.0, date = 2020.12.25, 22:54
+temp = 13.0, date = 2020.12.25, 22:54
+temp = 9.0, date = 2020.12.25, 22:54
+temp = 11.0, date = 2020.12.25, 22:54
+temp = 1.0, date = 2020.12.26, 0:10
+temp = 3.0, date = 2020.12.26, 0:10
+temp = 13.0, date = 2020.12.26, 0:10
+temp = 7.0, date = 2020.12.26, 0:10
+temp = 9.0, date = 2020.12.26, 0:10
+temp = 11.0, date = 2020.12.26, 0:10
+temp = 5.0, date = 2020.12.26, 0:10
+Printing all records from 2020.12
+Records within the file Records.ser
+temp = 7.0, date = 2020.12.25, 22:54
+temp = 13.0, date = 2020.12.25, 22:54
+temp = 9.0, date = 2020.12.25, 22:54
+temp = 11.0, date = 2020.12.25, 22:54
+temp = 1.0, date = 2020.12.26, 0:10
+temp = 3.0, date = 2020.12.26, 0:10
+temp = 13.0, date = 2020.12.26, 0:10
+temp = 7.0, date = 2020.12.26, 0:10
+temp = 9.0, date = 2020.12.26, 0:10
+temp = 11.0, date = 2020.12.26, 0:10
+temp = 5.0, date = 2020.12.26, 0:10
+Printing all records from 2020.12 which were warmer than the previous day
+Records within the file Records.ser
+temp = 13.0, date = 2020.12.25, 22:54
+temp = 11.0, date = 2020.12.25, 22:54
+temp = 3.0, date = 2020.12.26, 0:10
+temp = 13.0, date = 2020.12.26, 0:10
+temp = 9.0, date = 2020.12.26, 0:10
+temp = 11.0, date = 2020.12.26, 0:10
+
+Process finished with exit code 0

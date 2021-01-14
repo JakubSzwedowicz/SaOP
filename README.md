@@ -249,6 +249,48 @@ Create two classes of Vehicle: Car and Motorcyckle implementing interface Identi
 Then build a supervisory class to manipulate 3 parking places.
 (\*) propose the app which would help the potential client choose the best parking site based on their state of fullness.
 
+## List 8
+
+**1** - Write a program that:
+
+	a) generates (random) 2-dimensional array of real numbers,
+	b) saves the 2d array into the **text file** using scheme:
+		- 1st row: text "Matrix",
+		- 2nd row: number of rows of matrix,
+		- 3rd row: number of collumns of matrix,
+		- next rows: rows of the matrix,
+	c) reads the matrix from the file, saves it into the memory and displays it in a formatted way.
+
+**2** - Write a program that:
+	
+	Does the same as the one from **1** but on the **Binary File**.
+
+**3** Binary file stores some number of records - data from Records of the temperature at the given time and date in some location X.
+Each record has a format based on the structure of a class Record and Time:
+	```java
+	class Record { Time time; double temperature; }
+	class Time { int year, month, day, hour, minute; }
+```
+Write methods:
+
+	- adding the record to the end of file,
+	- adding the record to the file keeping the chronological order of records within the file,
+	- printing on the display records from the given month of a particular year,
+	- printing days of the chosen month and year in which there was a warming.
+
+## List 9
+
+**9.1** - Define the generic class MySet<T> which implements operations on sets: addition, subtraction, intersection, symmetric diffference, using the objects of a collection TreeSet<T>. Each methods should take MySet<T> as a parameter and return the object of type MySet<T>. 
+The class MySet<T> should have it own implementation of methods:
+```java
+public String toString();
+public addElement(T element);
+```
+Ilustrate the usage of methods with test objects of class Point2D and (independently) of the class Student (define them).
+
+**9.2** - Accomplish **9.1** using the collection ArrayList<T>. Compare those two implementation.
+
+(\*) - Use JUnit (preferably 5.x) to test the classses.
 
 # Basic and external libraries
 
